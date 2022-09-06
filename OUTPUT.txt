@@ -39,3 +39,8 @@ Pick a vertex u which is not there in mstSet and has a minimum key value.
 Include u in the mstSet.
 
 Update the key value of all adjacent vertices of u. To update the key values, iterate through all adjacent vertices. For every adjacent vertex v, if the weight of edge u-v is less than the previous key value of v, update the key value as the weight of u-v.
+
+OBSERVATION:
+1)The shortest distance according to the minimum cost spanning tree is from Hyderabad to Nagpur.
+2)The first two selected edges are Mumbai and Hyderabad having the shortest distance according to the matrix.
+3)Hyderabad is close to Mumbai and Chennai similarly Lucknow is close to Kolkata and Jaipur as compared to others.
