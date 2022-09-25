@@ -15,6 +15,8 @@ Jaipur          ---->           Lucknow         ---->           571
 
 OTHER FEW MORE TEST CASES:
 1) OUTPUT:
+  // String[] arr={"Nagpur" ,  "Pune" , "Hyderabad" , "Amritsar" , "Kolkata" , "Lucknow" , "Jaipur" };
+  
 Src.    Dest.   Weight
 
 Pune            ---->           Hyderabad       ---->           710
@@ -30,6 +32,7 @@ Lucknow         ---->           Nagpur          ---->           773
 Jaipur          ---->           Lucknow         ---->           571
 
 2)OUTPUT:
+// String[] arr={"Nashik" ,  "Mumbai" , "Chandigarh" , "Chennai" , "Kolkata" , "Bhopal" , "Jaipur" };
 Src.    Dest.   Weight
 
 Mumbai          ---->           Nashik          ---->           165
