@@ -1,3 +1,4 @@
+
 Src.    Dest.   Weight
 
 Mumbai          ---->           Hyderabad        ---->          710
@@ -11,6 +12,38 @@ Kolkata         ---->           Lucknow         ---->           1010
 Lucknow         ---->           Nagpur          ---->           773
 
 Jaipur          ---->           Lucknow         ---->           571
+
+OTHER FEW MORE TEST CASES:
+1) OUTPUT:
+Src.    Dest.   Weight
+
+Pune            ---->           Hyderabad       ---->           710
+
+Hyderabad       ---->           Nagpur          ---->           500
+
+Amritsar        ---->           Jaipur          ---->           2070
+
+Kolkata         ---->           Lucknow         ---->           1010
+
+Lucknow         ---->           Nagpur          ---->           773
+
+Jaipur          ---->           Lucknow         ---->           571
+
+2)OUTPUT:
+Src.    Dest.   Weight
+
+Mumbai          ---->           Nashik          ---->           165
+
+Chandigarh      ---->           Bhopal          ---->           1036
+
+Chennai         ---->           Chandigarh      ---->           2452
+
+Kolkata         ---->           Bhopal          ---->           1429
+
+Bhopal          ---->           Nashik          ---->           611
+
+Jaipur          ---->           Bhopal          ---->           571
+
 
 Name : AMISH SINGH
 
@@ -44,3 +77,14 @@ OBSERVATION:
 1)The shortest distance according to the minimum cost spanning tree is from Hyderabad to Nagpur.
 2)The first two selected edges are Mumbai and Hyderabad having the shortest distance according to the matrix.
 3)Hyderabad is close to Mumbai and Chennai similarly Lucknow is close to Kolkata and Jaipur as compared to others.
+
+OTHER TEST CASES OBSERVATIONS:
+1)
+-The shortest distance according to the minimum cost spanning tree is from Hyderabad to Nagpur.
+-The first two selected edges are Pune and Hyderabad having the shortest distance according to the matrix.
+-Hyderabad is close to Pune and Amritsar similarly Lucknow is close to Kolkata and Jaipur as compared to others.
+
+2)
+-The shortest distance according to the minimum cost spanning tree is from Mumbai to Nashik.
+-The first two selected edges are Mumbai and Chandigarh having the shortest distance according to the matrix.
+-Chandigarh is close to Mumbai and Chennai similarly Bhopal is close to Kolkata and Jaipur as compared to others.
